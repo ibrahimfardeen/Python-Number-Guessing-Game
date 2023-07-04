@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Well Done, {{ player_name }}!</h1>
+        <p class="result-message">{{ message }}</p>
+        <a href="/" class="play-again">Play Again</a>
+    </div>
+</body>
+</html>

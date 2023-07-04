@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Number Guessing Game!</h1>
+        <form method="POST" action="/">
+            <label for="player_name">Enter your name:</label>
+            <input type="text" name="player_name" required>
+            <button type="submit">Start Game</button>
+        </form>
+    </div>
+</body>
+</html>
